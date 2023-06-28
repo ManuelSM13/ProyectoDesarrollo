@@ -31,6 +31,7 @@ class DoctorAdapter (private val dataSet: MutableList<Models.Medico>) :
 
         init {
             // Define click listener for the ViewHolder's View.
+			//MOdificacion 1
             txtNombre = view.findViewById(R.id.txtNombre)
             txtEspecialidad = view.findViewById(R.id.txtEspecialidad)
         }
