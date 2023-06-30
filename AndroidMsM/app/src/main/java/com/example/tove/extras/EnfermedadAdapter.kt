@@ -31,6 +31,12 @@ class EnfermedadAdapter (private val dataSet: MutableList<Models.Enfermedad>) :
 
         init {
             // Define click listener for the ViewHolder's View.
+
+
+            // Creacion de rama enfermedad , prueba 1
+
+
+            
             txtNombre = view.findViewById(R.id.txtNombre)
             txtDescripcion = view.findViewById(R.id.txtDescripcion)
         }
