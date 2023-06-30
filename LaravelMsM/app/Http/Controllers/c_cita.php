@@ -7,7 +7,7 @@ use App\Models\m_cita;
 
 class c_cita extends Controller
 {
-        //
+        //se van a hacer algunos cambios here
         public function save(Request $req){
 
             if($req->id==0){
@@ -25,7 +25,7 @@ class c_cita extends Controller
     
             $cita->save();
     
-            return "Ok";
+            return "Okeyyyyy";
         }
     
         public function list(Request $req){
