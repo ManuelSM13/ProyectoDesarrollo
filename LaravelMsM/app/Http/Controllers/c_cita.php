@@ -38,7 +38,7 @@ class c_cita extends Controller
     
             return $cita;
         }
-    
+    //VAMOS A AGREGAR UNOS CAMBIOS
         public function delete(Request $req){
             $cita = m_cita::find($req->id);
             $cita->delete();
