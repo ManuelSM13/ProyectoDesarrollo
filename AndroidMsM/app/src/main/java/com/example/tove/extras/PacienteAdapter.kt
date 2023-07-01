@@ -1,5 +1,6 @@
 package com.example.tove.extras
 
+
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -52,6 +53,7 @@ class PacienteAdapter (private val dataSet: MutableList<Models.Paciente>) :
 
         return ViewHolder(view)
     }
+
 
     fun removeItem(position: Int) {
         dataSet.removeAt(position)
